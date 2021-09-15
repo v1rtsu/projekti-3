@@ -1,0 +1,146 @@
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo > img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    height: 60%;
+    margin-left: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-linkki {
+    padding-right: 100px;
+}
+.button {
+    width: 100%;
+    max-width: 150px;
+    margin: 15px 0;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    background-color: #f1c40f;
+}
+.button:hover {
+    background-color: #f1a90f;
+}
+.kenttä {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kenttä input[type='email'] {
+    width: 100%;
+    max-width: 275px;
+    padding: 5px;
+}
+form {
+    text-align: center;
+}
+.sisältö {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#features {
+    margin-top: 30px;
+}
+.grid {
+    display: flex;
+}
+.icon {
+    display: flex;
+    align-self: center;
+    width: 100px;
+}
+.ikon1 {
+    background-size: cover;
+    background-image: url(ikon1.png);
+    height: 55px;
+    width: 55px;
+}
+.ikon2 {
+    background-size: cover;
+    background-image: url(ikon2.png);
+    height: 52px;
+    width: 60px;
+}
+.ikon3 {
+    background-size: cover;
+    background-image: url(ikon3.png);
+    height: 42px;
+    width: 60px;
+}
+.otsikko {
+    margin-bottom: 0px;
+}
+.teksti {
+    margin-top: 0px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.taso {
+    background-color: #fe6868;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+#pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.tuote {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    width: calc(100% / 3);
+}
+.lista {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+li {
+    margin: 15px;
+}
+.nappi {
+    margin: 0 95px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #ffce1a;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+footer > span {
+    color: #444;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+}
